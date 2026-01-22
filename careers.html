@@ -4,6 +4,89 @@
   <meta charset="UTF-8">
   <title>Careers - Anchor Point Cleaning Services</title>
   <link rel="stylesheet" href="style.css"> <!-- Your main CSS file -->
+<style>
+  body {
+    background-color: #f8fafc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+  header {
+    background: #0b3c5d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  main {
+    padding: 40px 20px;
+  }
+
+  .apply-container {
+    max-width: 520px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+
+  .apply-container h2 {
+    text-align: center;
+    color: #0b3c5d;
+    margin-bottom: 10px;
+  }
+
+  .apply-container p {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  label {
+    font-weight: 600;
+    display: block;
+    margin-top: 15px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+
+  textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    background-color: #0b3c5d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #062f4f;
+  }
+</style>
 </head>
 <body>
   <header>
@@ -14,11 +97,11 @@
     </nav>
   </header>
 
-  <main>
+<main>
+  <div class="apply-container">
     <h2>Join Our Cleaning Team / Únete a Nuestro Equipo de Limpieza</h2>
     <p>We are currently building our team as we add new clients. Apply now to be considered for upcoming openings.</p>
 
-    <!-- Formspree Form -->
     <form action="https://formspree.io/f/mpqqeqon" method="POST" enctype="multipart/form-data">
       <label>Full Name / Nombre Completo:</label>
       <input type="text" name="name" required>
@@ -43,7 +126,9 @@
 
       <button type="submit">Submit Application / Enviar Solicitud</button>
     </form>
-  </main>
+  </div>
+</main>
+
 </body>
 </html>
 
